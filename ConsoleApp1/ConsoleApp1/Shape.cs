@@ -15,6 +15,5 @@ namespace ConsoleApp1
             return name;
         }
 
-        public abstract float CalculateArea();
     }
 }

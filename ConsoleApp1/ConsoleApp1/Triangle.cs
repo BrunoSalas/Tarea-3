@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Triangle : Shape
+    class Triangle : Shape, Area
     {
         private float b;
         private float h;
@@ -18,11 +18,9 @@ namespace ConsoleApp1
             this.h = h;
         }
 
-        public override float CalculateArea()
+        public float CalculetArea()
         {
             return b * h / 2;
         }
-
-
     }
 }
