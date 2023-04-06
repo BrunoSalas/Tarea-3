@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Rectangulo: Shape, Area
+    class Rectangulo: Shape, Area , Perimeter
 
         
     {
@@ -17,6 +17,11 @@ namespace ConsoleApp1
         {
             this.b = b; this.h = h;
 
+        }
+
+        public float CalculatePerimeter()
+        {
+            return 2 * (b + h);
         }
 
         public float CalculetArea()
