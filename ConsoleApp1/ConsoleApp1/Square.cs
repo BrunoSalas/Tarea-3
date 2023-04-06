@@ -9,12 +9,10 @@ namespace ConsoleApp1
     class Square : Shape, Area, Perimeter
     {
         float b;
-        float h;
 
-        public Square(float b, float h)
+        public Square(float b)
         {
             this.b = b;
-            this.h = h;
         }
         public float CalculatePerimeter()
         {
@@ -23,7 +21,7 @@ namespace ConsoleApp1
 
         public float CalculetArea()
         {
-            return b * h; 
+            return b * b; 
         }
     }
 }
