@@ -8,6 +8,6 @@ namespace ConsoleApp1
 {
     interface Area
     {
-        float CalculetArea()
+        float CalculetArea();
     }
 }
