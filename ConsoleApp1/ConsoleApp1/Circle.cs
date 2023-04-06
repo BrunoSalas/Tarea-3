@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Circle : Shape
+    class Circle : Shape, Area
     {
         private float radius;
 
