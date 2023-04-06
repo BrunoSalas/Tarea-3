@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Rectangulo
+    class Rectangulo:Shape
+
     {
+        float b;
+        float h;
+
+        public Rectangulo (float b, float h)
+        {
+            this.b = b; this.h = h;
+
+        }
     }
 }
