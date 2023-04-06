@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Circle : Shape, Area
+    class Circle : Shape, Area, Perimeter
     {
         private float radius;
 
@@ -14,6 +14,11 @@ namespace ConsoleApp1
         {
             this.name = "Círculo";
             this.radius = radius;
+        }
+
+        public float CalculatePerimeter()
+        {
+            return (2 * 3.14f) * radius;
         }
 
         public float CalculetArea()
