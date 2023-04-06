@@ -2,5 +2,8 @@
 {
     internal interface Perimeter
     {
+
+        float CalculatePerimeter();
+
     }
 }
