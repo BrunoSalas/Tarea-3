@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Rectangulo:Shape
+    class Rectangulo: Shape, Area
 
+        
     {
         float b;
         float h;
@@ -16,6 +17,11 @@ namespace ConsoleApp1
         {
             this.b = b; this.h = h;
 
+        }
+
+        public float CalculetArea()
+        {
+            return b * h;
         }
     }
 }
