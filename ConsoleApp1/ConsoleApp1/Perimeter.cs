@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    abstract class Shape
+    interface Perimeter
     {
-        protected string name;
 
-
-        public string GetName()
-        {
-            return name;
-        }
+        float CalculatePerimeter();
+        
 
     }
 }

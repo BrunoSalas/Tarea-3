@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     class Program
     {
-      /* static void Main(string[] args)
+      static void Main(string[] args)
         {
             List<Shape> shapes = new List<Shape>();
 
@@ -38,12 +38,12 @@ namespace ConsoleApp1
                 Console.WriteLine("Areas");
                 foreach (Shape shape in shapes)
                 {
-                    Console.WriteLine($"{shape.GetName()}: {shape.CalculateArea()}");
+                  //  Console.WriteLine($"{shape.GetName()}: {shape.CalculateArea()}");
                 }
 
             }
 
             Console.ReadLine();
-        }*/
+        }
     }
 }
