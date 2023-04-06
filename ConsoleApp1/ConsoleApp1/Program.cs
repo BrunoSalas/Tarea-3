@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Semana2
+namespace ConsoleApp1
 {
     class Program
     {
-        static void Main(string[] args)
+      /*  static void Main(string[] args)
         {
             List<Shape> shapes = new List<Shape>();
 
             while (true)
-            { 
+            {
                 Console.WriteLine("Escribir el número para añadir figura");
                 Console.WriteLine("1. Círculo");
                 Console.WriteLine("2. Triángulo");
@@ -27,7 +27,7 @@ namespace Semana2
                         break;
                     case "2":
                         Console.WriteLine("Introducir la base del triángulo");
-                        float triangleB= float.Parse(Console.ReadLine()); 
+                        float triangleB = float.Parse(Console.ReadLine());
                         Console.WriteLine("Introducir la altura del triángulo");
                         float triangleH = float.Parse(Console.ReadLine());
                         shapes.Add(new Triangle(triangleB, triangleH));
@@ -36,7 +36,7 @@ namespace Semana2
                 }
 
                 Console.WriteLine("Areas");
-                foreach(Shape shape in shapes)
+                foreach (Shape shape in shapes)
                 {
                     Console.WriteLine($"{shape.GetName()}: {shape.CalculateArea()}");
                 }
@@ -44,6 +44,6 @@ namespace Semana2
             }
 
             Console.ReadLine();
-        }
+        }*/
     }
 }
